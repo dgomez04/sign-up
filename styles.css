@@ -1,0 +1,52 @@
+
+
+.container {
+    width: 100vw;
+    height: 100vh;  
+    background: black;
+    display: flex;
+}
+
+.left {
+    width: 40vw;
+    background:#00BC7D;
+}
+
+
+.logo {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: 'Braah One', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+.left > img {
+    position: relative;
+    width: calc(100%);
+}
+
+.left > p {
+    font-family: 'Braah One', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+.right {
+    width: 60vw;
+    background: white;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 50%;
+}
+
+.columns > input, label, button, h1, .login{
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
