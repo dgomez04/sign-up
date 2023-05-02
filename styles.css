@@ -41,12 +41,16 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 130px;
-    width: 50%;
+    height: 160px;
+    width: 80%;
 }
 
 .columns > input, label, button, h1, .login{
     margin-right: 50px;
     margin-left: 50px;
     
+}
+
+button, .columns > input  {
+    margin-bottom: 10px;
 }
