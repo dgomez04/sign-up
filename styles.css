@@ -1,13 +1,17 @@
 
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 .container {
     width: 100vw;
-    height: 100vh;  
-    background: black;
+    height: 110vh;  
     display: flex;
 }
 
 .left {
+    height: 100%;
     width: 40vw;
     background:#00BC7D;
 }
@@ -42,7 +46,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 170px;
+    height: 160px;
     width: 80%;
 }
 
@@ -58,6 +62,7 @@ button, .columns > input  {
 
 h1 {
     font-family: 'Braah One', sans-serif;
+    font-size: 50px;
     color: #00BC7D;
     margin-top: 100px;
     margin-bottom: 25px;
@@ -81,6 +86,10 @@ button {
     border-radius: 4px;
     border: none;
     box-shadow: 1px 1px 5px antiquewhite;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .login {
