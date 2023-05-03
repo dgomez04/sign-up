@@ -33,15 +33,16 @@
     color: white;
 }
 .right {
+    font-family: 'Open Sans', sans-serif;
     width: 60vw;
-    background: white;
+    background: white; 
 }
 
 .columns {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 160px;
+    height: 170px;
     width: 80%;
 }
 
@@ -53,4 +54,42 @@
 
 button, .columns > input  {
     margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Braah One', sans-serif;
+    color: #00BC7D;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: smaller;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+}
+
+
+button {
+    font-family: Helvetica, sans-serif;
+    height: 40px;
+    width: 150px;
+    background-color: #00BC7D;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 5px antiquewhite;
+}
+
+.login {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.login > a {
+    text-decoration: none;
+    color: #00BC7D;
+    font-weight: bold;
 }
