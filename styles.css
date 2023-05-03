@@ -4,14 +4,19 @@ html {
     overflow-y: hidden;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 100vw;
-    height: 110vh;  
+    height: 100vh;  
     display: flex;
 }
 
 .left {
-    height: 100%;
+    height: 100vh;
     width: 40vw;
     background:#00BC7D;
 }
